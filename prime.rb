@@ -1,3 +1,5 @@
+require 'benchmark'
+
 def prime?(int)
   if int <= 1
     false
@@ -18,3 +20,5 @@ def prime?(int)
     end
   end
 end
+
+puts Benchmark.measure{prime?(100)}
