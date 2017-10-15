@@ -21,4 +21,4 @@ def prime?(int)
   end
 end
 
-puts Benchmark.measure{prime?(100)}
+puts Benchmark.measure{prime?(339747373)}
